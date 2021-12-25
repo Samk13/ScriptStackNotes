@@ -1,6 +1,7 @@
 from itertools import product, permutations, combinations, combinations_with_replacement, accumulate, groupby
 import operator
 
+# https://www.youtube.com/watch?v=3ecISAkioPc&list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2&index=11
 # Create a list of all possible combinations of the letters in the alphabet
 a = [1, 2, 3]
 b = [3, 4]
