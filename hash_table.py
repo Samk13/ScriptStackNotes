@@ -1,8 +1,3 @@
-
-from operator import le
-from textwrap import indent
-
-
 INTIAL_CAPACITY = 50
 
 
@@ -79,20 +74,22 @@ class HashTable:
 
 
 x = HashTable()
-x.insert('123123', 1)
-x.insert('b', 2)
-x.insert('c', 3)
-x.insert('d', 4)
-x.insert('e', 5)
-x.insert('f', 6)
-x.insert('g', 7)
-x.insert('h', 8)
-x.insert('i', 9)
-x.insert('j', 10)
-x.insert('k', 11)
-x.insert('l', 12)
-x.insert('m', 13)
-x.insert_multiple(['n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'], [
-                  14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
-print(x.find('a'))
+x.insert("123123", 1)
+x.insert("b", 2)
+x.insert("c", 3)
+x.insert("d", 4)
+x.insert("e", 5)
+x.insert("f", 6)
+x.insert("g", 7)
+x.insert("h", 8)
+x.insert("i", 9)
+x.insert("j", 10)
+x.insert("k", 11)
+x.insert("l", 12)
+x.insert("m", 13)
+x.insert_multiple(
+    ["n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
+    [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+)
+print(x.find("a"))
 print(x.get_all_keys())

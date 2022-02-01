@@ -17,8 +17,8 @@ def test1(*args):
             print(i, "> 3")
 
 
-a = 'shortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfg'
-b = 'shortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfg'
+a = "shortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfg"
+b = "shortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfgshortaeasdfasdgfsfdgasdfgasdfgasdfg"
 c = 521323231232323
 d = 521323231232323
 print(a is b)  # True

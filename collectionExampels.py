@@ -7,7 +7,7 @@ my_counter = Counter(a)
 
 
 # namedtuple is a tuple that can be accessed by name
-Point = namedtuple('Point', ['x', 'y'])
+Point = namedtuple("Point", ["x", "y"])
 
 pt1 = Point(1, 2)
 pt2 = Point(3, 4)
@@ -17,19 +17,19 @@ pt2 = Point(3, 4)
 # OrderedDict is a dictionary that remembers the order in which keys were inserted
 # it become less udesful after python 3.7
 OrderedDict = OrderedDict()
-OrderedDict['a'] = 1
-OrderedDict['b'] = 2
-OrderedDict['c'] = 3
-OrderedDict['d'] = 4
-OrderedDict['e'] = 5
+OrderedDict["a"] = 1
+OrderedDict["b"] = 2
+OrderedDict["c"] = 3
+OrderedDict["d"] = 4
+OrderedDict["e"] = 5
 # print(OrderedDict) OrderedDict([('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)])
 
 # defaultdict is a dictionary that returns a default value if the key is not found
 # it is useful for when you want to return a default value if the key is not found
 d = defaultdict(int)
-d['a'] = 1
-d['b'] = 2
-d['c'] = 3
+d["a"] = 1
+d["b"] = 2
+d["c"] = 3
 #  print(d['d'])  # 0
 
 # deque is a double ended queue

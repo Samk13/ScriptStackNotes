@@ -8,4 +8,4 @@ obj = {"test": "aaaaa", "test2": "Linn", "test3": "Sam"}
 # spread obj values
 
 arr3 = {*arr1, *arr2, *obj.values()}
-print('arrr3', arr3)
+print("arrr3", arr3)

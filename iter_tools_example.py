@@ -1,4 +1,11 @@
-from itertools import product, permutations, combinations, combinations_with_replacement, accumulate, groupby
+from itertools import (
+    product,
+    permutations,
+    combinations,
+    combinations_with_replacement,
+    accumulate,
+    groupby,
+)
 import operator
 
 # https://www.youtube.com/watch?v=3ecISAkioPc&list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2&index=11
@@ -55,6 +62,6 @@ persons = [
     {"name": "Jack", "age": 20},
 ]
 
-gr = groupby(persons, key=lambda x: x['age'])
+gr = groupby(persons, key=lambda x: x["age"])
 for key, value in gr:
     print(key, list(value))

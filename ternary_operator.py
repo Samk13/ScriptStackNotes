@@ -1,4 +1,5 @@
 from functools import wraps
+
 condition = True
 test = ("Its true", "it's false")[not condition]
 print(test)
@@ -9,6 +10,7 @@ def decorator_func(func_child):
         print("start")
         func_child()
         print("end")
+
     return wraper_func
 
 
@@ -27,6 +29,7 @@ def logit(func):
         print("*args", args)
         print("**kwargs", kwargs)
         return func(*args, **kwargs)
+
     return with_logging
 
 
