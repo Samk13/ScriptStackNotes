@@ -84,6 +84,14 @@ if you want the execution to stop when the exception happen you can use
 `%timeit`
 
 `prun` -> will give nice overview of the function run information
+`lprun` -> similar to `prun` but line by line -> you need to install it separately `pip install line_profiler`
+
+## Memory profiler
+you need to install it first `pip install memory_profiler`
+then you can run it using `mprun <your function that you want to profile> <statment that needs to be run>`
+
+
+
 
 
 
