@@ -1,5 +1,4 @@
-
-<video src="https://www.youtube.com/watch?v=KDh8aIwfIac">full video</video>
+[full video](https://www.youtube.com/watch?v=KDh8aIwfIac)
 
 Quick way to see if you did something wrong:
 
