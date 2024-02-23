@@ -16,3 +16,6 @@
 ## Get list of connected storage devices
 
  `Get-PhysicalDisk | Select-Object MediaType, BusType, Model`
+
+## Get GPU driver version
+ `Get-WmiObject Win32_PnPSignedDriver | Where-Object {$_.DeviceName -like "*NVIDIA GeForce RTX*"} | Select-Object DeviceName, DriverVersion`
